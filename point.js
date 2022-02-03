@@ -3,4 +3,20 @@ class Point{
         this.x = x;
         this.y = y;
     }
+
+    distanceFrom(point){
+
+    }
+
+    distanceFromOrigin(){
+
+    }
+
+    medianPointFromPoint(point){
+
+    }
+
+    nearestPoint(...points){
+        
+    }
 }
