@@ -7,5 +7,9 @@ class PuntoMedio{
         const puntoMedio = new Point(xMed, yMed)
         return puntoMedio;
     }
-    
+    static distanceFromOrigin(p){
+        const origin = new Point(0, 0);
+        const distance = this.calculateDistance(origin, p);
+        return distance;
+    }
 }
