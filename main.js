@@ -5,10 +5,12 @@ const pointB = new Point(6, 1);
 
 const pointC = new Point(7, 1);
 
-<<<<<<< HEAD
+ HEAD
+ HEAD
 console.log(mediaPoint);
 
-=======
+
+ e013a79424ea3467232174b646b52f4fbce0f0c1
 const pointD = new Point(3, 6);
 
 const pointE = new Point(1, 1);
@@ -46,6 +48,9 @@ const nearestToA = pointA.nearestPoint(pointB, pointC, pointD, pointE);
 
 console.log(nearestToA);
 
+ HEAD
+// let bev2 = new Bevanda(name: "chinotto", insertionDate: new Date())
+ e013a79424ea3467232174b646b52f4fbce0f0c1
 
 // let bev2 = new Bevanda(name: "chinotto", insertionDate: new Date())
->>>>>>> e013a79424ea3467232174b646b52f4fbce0f0c1
+ e013a79424ea3467232174b646b52f4fbce0f0c1
