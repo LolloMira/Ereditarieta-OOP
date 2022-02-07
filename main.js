@@ -1,46 +1,24 @@
+const segment1 = new Segment(3, 5, 6, 1);
 
-const pointA = new Point(3, 5);
+// console.log(segment1.length);
+// console.log(segment1.mediumPoint);
 
-const pointB = new Point(6, 1);
+const verticeInfSx = new Point(3, 2);
+const verticeSupSx = new Point(3, 6);
+const verticeSupDx = new Point(8, 2);
+const verticeInfDx = new Point(8, 6);
+const randomPoint = new Point(20, 20);
+const topL = new Point(20, 20);
+const bottomR = new Point(45, 35);
 
-const pointC = new Point(7, 1);
+const rectangle1 = new Rectangle(verticeInfSx, verticeSupSx, verticeSupDx, verticeInfDx);
+const rectangle2 = new Rectangle1(randomPoint, 25, 15)
+const rectangle3 = new Rectangle2(topL, bottomR);
 
-const pointD = new Point(3, 6);
+console.log("Vertici - Rectangle 1:", rectangle2.allPoints);
+console.log("Perimetro - Rectangle 1:", rectangle2.perimetro);
+console.log("Area - Rectangle 1:", rectangle2.area);
 
-const pointE = new Point(1, 1);
-
-const pointF = new Point(-2, 1);
-
-
-const distance = MathC.calculateDistance(pointA, pointB);
-
-const medianPoint = MathC.medianPoint(pointA, pointB);
-
-const distanceFromOrigin = MathC.distanceFromOrigin(pointA);
-
-const nearest = MathC.nearestPoint(pointA, pointB, pointC, pointD, pointE, pointF);
-
-
-console.log(distance);
-
-console.log(medianPoint);
-
-
-const distanceFromB = pointA.distanceFrom(pointB);
-
-console.log(distanceFromB);
-
-const distanceFromOriginOfA = pointA.distanceFromOrigin();
-
-console.log(distanceFromOriginOfA);
-
-const medianFromB = pointA.medianPointFromPoint(pointB);
-
-console.log(medianFromB);
-
-const nearestToA = pointA.nearestPoint(pointB, pointC, pointD, pointE);
-
-console.log(nearestToA);
-
-
-// let bev2 = new Bevanda(name: "chinotto", insertionDate: new Date())
+console.log("Vertici - Rectangle 2:", rectangle3.allPoints);
+console.log("Perimetro - Rectangle 2:", rectangle3.perimetro);
+console.log("Area - Rectangle 2:", rectangle3.area);
