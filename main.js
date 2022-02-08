@@ -110,3 +110,10 @@ const quad2 = new Quad(tl, 6);
 
 console.log("con classe", quad1)
 console.log("con prototipo", quad2);
+
+
+
+
+for (const number of range) {
+    console.log(number);
+}
